@@ -45,5 +45,23 @@ int main()
 
     printf("\nYou entered: %d::::%s\n", i, str);
 
+    int testVar = 0;
+
+    /*
+        Enums
+        - A data type that allows the programmer to define a variable and specify the vaild values that it
+        can store.
+    */
+    // defining the enum type.
+    enum primaryColor
+    {
+        red,
+        yellow,
+        blue
+    };
+    // Defining variables using the enum type.
+    enum primaryColor myColor, miaColor;
+    myColor = red;
+
     return 0;
 }
