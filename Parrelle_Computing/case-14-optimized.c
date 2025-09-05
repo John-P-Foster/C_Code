@@ -6,7 +6,7 @@ long long sum1 = 0;        // To be the sum of the even indexed values.
 long long sum2 = 0;        // To be the sum of the odd indexed values.
 int unOptimizedTime = 0;   // Base line time.
 int *a;                    // Pointer to a very large array in memory.
-#define Size 100000000 * 8 // The size of the array in memory, time 8 to simplify loops.
+#define Size 100000000 * 8 // The size of the array in memory, times 8 to simplify loops.
 
 // Case 14 as given in home work.
 void case_14(void)
@@ -51,7 +51,7 @@ void case_14_Optimized2()
     sum2 = localSum2;
 }
 
-// Tracks clock ticks of each function passed.
+// Tracks clock ticks of each function passed and compares to baseline.
 void runFunction(void (*function)(), char *functionOpt)
 {
 
